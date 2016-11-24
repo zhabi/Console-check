@@ -60,6 +60,7 @@ done;
 cat ./Result/$telnetLog | while read line;
 do
 	test=${line:0:2};
+	#base on the device naming
 	case $test in
 		"++")
 			echo $line >> ./$ScanResult
@@ -67,10 +68,10 @@ do
 		"##")
 			echo $line >> ./$ScanResult
 			;;
-		"CN")
+		"AB")
 			echo $line"......OK" >> ./$ScanResult
 			;;
-		"HK")
+		"CD")
 			echo $line"......OK" >> ./$ScanResult
 			;;
 		"!!")
