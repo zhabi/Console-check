@@ -6,7 +6,7 @@
 #	This program is used to console check function. 
 
 #History
-#2016/11/24	Jen.Lin	First release
+#2016/11/24	zhabi	First release
 
 
 fileDate=$(date +%Y%m%d%H%M);
